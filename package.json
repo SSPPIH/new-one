@@ -1,23 +1,17 @@
 {
-  "name": "bedding-stock-line-bot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "new-one",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SSPPIH/new-one.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SSPPIH/new-one/issues"
-  },
-  "homepage": "https://github.com/SSPPIH/new-one#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "next": "13.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
