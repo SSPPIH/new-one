@@ -4,11 +4,11 @@ const axios = require("axios");
 const qs = require("qs");
 
 const config = {
-  channelAccessToken: "xxx", // add your channel access token
-  channelSecret: "xxx", // add your channel secret
+  channelAccessToken: "GKWRLyGHPejtN+zvRwd0gQ3ApynUG7cfdvBJ9wZKKAKfvyWKaoYNopbQc0tj6pEBUDt8iZxGqMSUorIL0Eh+5Ov4gX3l4XLtBijeP+L/7SJhIcIMCrPC0S22lOyQN+3BC+jlyKEUPo17Ee4nN5K4YgdB04t89/1O/w1cDnyilFU=", // add your channel access token
+  channelSecret: "80bc895684f08292660ce48edd98763e", // add your channel secret
 };
 
-const APPS_SCRIPT_URL = "xxx"; // add your google app script url
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyxwNNJ4PY7Q-Y-Yt2koN8Id9f9QiHiNe8KDA9O95ZsNsMpKTh9PnUnb_BhL1v5lsgw/exec"; // add your google app script url
 
 const app = express();
 
